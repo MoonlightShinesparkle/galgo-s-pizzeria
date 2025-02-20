@@ -68,6 +68,9 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	overflow-x: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	overflow: -moz-scrollbars-none;
 }
 
 nav::-webkit-scrollbar {
