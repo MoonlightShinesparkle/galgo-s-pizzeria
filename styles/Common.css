@@ -1,0 +1,132 @@
+:root {
+	--HeaderColor: #A54632;
+	--BodyColor: #4b190f;
+	--Unselected: #220b06;
+	--TxtColor: #ffffff;
+}
+
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: var(--TxtColor);
+	background-color: var(--BodyColor);
+	word-break: keep-all;
+	font-size: large;
+	overflow-x: hidden;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	min-height: 100svh;
+}
+
+body ::selection {
+	background-color: var(--HeaderColor);
+	text-decoration: underline;
+}
+
+header, footer, .root {
+	padding: 10px;
+}
+
+header, footer {
+	background-color: var(--HeaderColor);
+}
+
+header {
+	padding-bottom: 0px;
+}
+
+.HeaderWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+#Icon {
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5%;
+	height: 200px;
+	width: 200px;
+}
+
+.HeaderWrapper h1 {
+	margin: 5px;
+	margin-top: 50px;
+	margin-right: 10%;
+	text-align: center;
+	flex-grow: 1;
+	font-size: 300%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	overflow-x: scroll;
+}
+
+nav::-webkit-scrollbar {
+	display: none;
+}
+
+nav a {
+	background-color: var(--Unselected);
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px 3% 5px 3%;
+	color: var(--TxtColor);
+	text-align: center;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.Selected {
+	background-color: var(--BodyColor);
+}
+
+@media screen and (max-width: 600px){
+	body{
+		font-size: medium;
+	}
+	#Icon{
+		margin-top: 30px;
+		display: block;
+		height: 80px;
+		width: 80px;
+	}
+	.HeaderWrapper h1{
+		margin-right: 10%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	body{
+		font-size: medium;
+	}
+	#Icon{
+		display: none;
+	}
+	.HeaderWrapper h1{
+		margin-right: 5px;
+	}
+}
+
+@media screen and (max-width: 300px){
+	body{
+		font-size: large;
+	}
+	#Icon{
+		display: block;
+		height: 200px;
+		width: 200px;
+	}
+	.HeaderWrapper h1{
+		margin-right: 10%;
+	}
+}
