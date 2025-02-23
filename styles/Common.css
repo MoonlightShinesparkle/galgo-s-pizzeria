@@ -88,9 +88,21 @@ nav a {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 }
+#Selected {
+	display: none;
+}
 
 .Selected {
 	background-color: var(--BodyColor);
+}
+
+.root h1, h2{
+	text-align: center;
+	text-shadow: 3px 3px 0 var(--HeaderColor),
+   -3px -3px 0 var(--HeaderColor),  
+    3px -3px 0 var(--HeaderColor),
+   -3px  3px 0 var(--HeaderColor),
+    3px  3px 0 var(--HeaderColor);
 }
 
 @media screen and (max-width: 600px){
@@ -114,6 +126,9 @@ nav a {
 	}
 	#Icon{
 		display: none;
+	}
+	nav a{
+		font-size: larger;
 	}
 	.HeaderWrapper h1{
 		margin-right: 5px;

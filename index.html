@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<base href=""/>
 	<meta charset="utf-8"/>
 	<link rel="icon" type="image/jpg" href="images/logos/MainLogo.jpg"/>
 	<link rel="stylesheet" href="styles/Common.css"/>
@@ -13,53 +14,65 @@
 	<meta content="https://moonlightshinesparkle.github.io/galgo-s-pizzeria/" property="og:url"/>
 	<meta content="https://moonlightshinesparkle.github.io/galgo-s-pizzeria/images/logos/MainLogo.jpg" property="og:image"/>
 	<meta content="#4b190f" data-react-helmet="true" name="theme-color"/>
+	<script src="src/Insertions.js" defer></script>
 </head>
-<body>
 	<header>
+		<data id="Selected">Inicio</data>
 		<div class="HeaderWrapper">
 			<img src="images/logos/Backgroundless.png" id="Icon"/>
 			<h1>
-				Galgo's pizza
+				Galgo's pizzeria
 			</h1>
 		</div>
 		<nav>
-			<a href="" class="Selected">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
-			<a href="">
-				Entry
-			</a>
 		</nav>
+		<script src="src/Headergen.js"></script>
 	</header>
 	<div class="root">
-		Content goes here!
+		<h1>
+			Galgo's pizzeria
+		</h1>
+		<p>
+			Bienvenidos a la p&aacute;gina oficial de galgo's pizzeria:
+			una pequeña empresa en Tijuana, Baja California, México ofreciendo
+			pizzas artesanales con ingredientes frescos y de alta calidad.
+		</p>
+		<h2>
+			¿Por qu&eacute; nosotros?
+		</h2>
+		<p>
+			Transformamos la experiencia de una pizzeria convencional a una en un
+			viaje gastronómico único sobre ruedas. Y te ofrecemos una experiencia única para tu paladar
+			y para que pases un tiempo agradable degustando nuestras deliciosas pizzas.
+		</p>
+		<h2>
+			¿Qu&eacute; nos hace diferentes?
+		</h2>
+		<ul>
+			<li>
+				El uso de ingredientes frescos y de alta calidad:<br>
+				La pizza que servimos está hecha con los mejores ingredientes frescos y
+				seleccionados cuidadosamente.
+			</li>
+			<li>
+				Hacemos nuesta propia salsa de tomate desde 0 en nuestra cocina
+			</li>
+			<li>
+				Una amplia variedad de pizzas junto a la posibilidad de personalizarlas
+			</li>
+			<li>
+				La flexibilidad también es una de nuestras ventajas y la comodidad al tener
+				todo en un foodtruck para llevar nuestras deliciosas pizzas a nuestros clientes.
+			</li>
+		</ul>
+		<h2>
+			Ven a visitarnos!
+		</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!4v1740304046373!6m8!1m7!1szpUUfKEwAPBrY0rPatVWiA!2m2!1d32.48485446443026!2d-116.9286662372492!3f308.14938988619014!4f-10.151794162808528!5f0.7820865974627469" style="border:0; width: 80%; height: 450px; margin-left: auto; margin-right: auto; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<p>
+			Nos encontramos en la Avenida Cochimies, mejor conocida como la calle del hambre, estamos abiertos de <u>4 PM a 10 PM</u>
+		</p>
 	</div>
-	<footer>
-		Lorem ipsum dolor sit amet, this is the footer of the page!
-	</footer>
+	<insert src="pages/common/MainFooter.html"></insert>
 </body>
 </html>
