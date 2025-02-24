@@ -1,76 +1,88 @@
 {
 	"Pizzas":{
 		"Peperoni":{
-			"Img":"",
+			"Img":"https://roviandaplus.com/wp-content/uploads/2022/04/Pizza-Pepperoni.jpg",
 			"Precio":120
 		},
 		"Queso":{
-			"Img":"",
+			"Img":"https://image.freepik.com/foto-gratis/pizza-cuatro-quesos-sobre-mesa_140725-5391.jpg",
 			"Precio":100
 		},
 		"Tres carnes":{
-			"Img":"",
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pystatic.com%2Fproducts%2F454350-3b587a56-1251-44ac-90b4-31f1c92ab89b.jpg&f=1&nofb=1&ipt=5fbca1a3d0b57f70160a58e24a499184f19ea5d9307a848a479c7f0d418b6a7e&ipo=images",
 			"Precio":160
 		},
 		"Hawaiiana":{
-			"Img":"",
+			"Img":"https://www.cocinadelirante.com/sites/default/files/images/2019/11/como-hacer-pizza-hawaiana.jpg",
 			"Precio":140
 		},
 		"Mexicana":{
-			"Img":"",
+			"Img":"https://media-cdn.tripadvisor.com/media/photo-s/23/c4/7c/9d/nuestra-consentida-pizza.jpg",
 			"Precio":160
 		}
 	},
 	"Bebidas":{
 		"Soda":{
-			"Img":"",
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.tenor.com%2F9peydw5SCe4AAAAM%2Fcoca-cola.gif&f=1&nofb=1&ipt=154afdb2632a01b86d018d482109c5b813d9e432a5b84cd55540229556a08cec&ipo=images",
 			"Precio":25
 		},
 		"Agua natural":{
-			"Img":"",
+			"Img":"https://grupozas.xcomercia.com/negocios/docs/clientes/44/productos/05261c34-077f-4783-a648-d8b2749f7b5b.JPG",
 			"Precio":10
 		}
 	},
 	"Ingredientes, salsas y modificaciones":{
 		"Notice":"Las pizzas personalizables inician en 100 pesos como una pizza de queso",
 		"Peperoni":{
-			"Img":"",
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZLSB5Dcg_DFxGvTYkcRF7wAAAA%26pid%3DApi&f=1&ipt=21b5ce292b219518fea3cdd76e884ccf8041abc86a03ab99eda013014205d453&ipo=images",
 			"Precio":20
 		},
 		"Sausage":{
-			"Img":"",
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.skippersfish.com%2Fwp-content%2Fuploads%2F2019%2F01%2Fsausage.jpg&f=1&nofb=1&ipt=9d00be3bb72f93424492133871dca2cab3db58a97e38f834b75c64e7d112123e&ipo=images",
 			"Precio":20
 		},
 		"Tocino":{
-			"Img":"",
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.harringtonham.com%2Fprod_images%2F350%2Fharringtons-thick-sliced-bacon-996-1.jpg&f=1&nofb=1&ipt=00d44ccc3c5605daac3a68ba8e435c38b508c1a985ed856266ae65da44e76329&ipo=images",
 			"Precio":20
 		},
 		"Chorizo":{
-			"Img":"",
+			"Img":"https://www.thefedupfoodie.com/wp-content/uploads/2020/09/Mexican-Chorizo-Sausage-.jpg",
 			"Precio":20
 		},
 		"Jamon":{
-			"Img":"",
+			"Img":"https://www.empacadora-fritz.com.mx/cdn/shop/products/jamon-pavo-ahumado_1024x.jpg?v=1657962258",
 			"Precio":20
 		},
-		"Queso extra":{
-			"Img":"",
+		"Jalapeños":{
+			"Img":"https://www.maricruzavalos.com/wp-content/uploads/2014/09/chiles-jalapenos-en-vinagre-683x1024.jpg",
+			"Precio":20
+		},
+		"Cebolla":{
+			"Img":"https://st.depositphotos.com/1077338/3509/i/450/depositphotos_35094945-stock-photo-bulb-and-sliced-onions-on.jpg",
+			"Precio":10
+		},
+		"Pimientos":{
+			"Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGBzoAuBO8unID6DWjYq5iyeQdx3FDq54Pww&s",
 			"Precio":20
 		},
 		"Corteza de queso":{
-			"Img":"",
+			"Img":"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ded6f8da-8cf2-4a64-ba37-918524007e86/Derivates/62cc9ab8-0557-4470-beb8-fa9bc9c6997e.jpg",
 			"Precio":40
 		},
+		"Queso extra":{
+			"Img":"https://a.storyblok.com/f/160385/9b00225133/shredded-mozzarella-and-block.jpeg/m/filters:quality(70)/",
+			"Precio":20
+		},
 		"Salsa de tomate extra":{
-			"Img":"",
+			"Img":"https://bowlsarethenewplates.com/wp-content/uploads/2021/03/marinara-sauce-12-682x1024.jpg",
 			"Precio":20
 		},
 		"Ranch":{
-			"Img":"",
+			"Img":"https://images.squarespace-cdn.com/content/v1/5d7fbf5250fa7f38f63f9806/1625056286113-VY2HPG686PPHN7DDTEGB/grandmas-dressing4-small.jpg",
 			"Precio":20
 		},
 		"Garlic butter":{
-			"Img":"",
+			"Img":"https://www.thereciperebel.com/wp-content/uploads/2021/10/garlic-bread-garlic-butter-www.thereciperebel.com-1200-11-of-26.jpg",
 			"Precio":20
 		}
 	}
