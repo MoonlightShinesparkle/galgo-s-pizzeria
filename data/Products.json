@@ -29,6 +29,14 @@
 		"Agua natural":{
 			"Img":"https://grupozas.xcomercia.com/negocios/docs/clientes/44/productos/05261c34-077f-4783-a648-d8b2749f7b5b.JPG",
 			"Precio":10
+		},
+		"Agua de horchata":{
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2Fhorchata.jpg&f=1&nofb=1&ipt=2b4baad26ec7cff24dd4530cb92d74e7ad46d5fabc48d09bb98804138762724c&ipo=images",
+			"Precio":20
+		},
+		"Agua de jamaica":{
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2FJAMAICA.jpg&f=1&nofb=1&ipt=ebaca6c419587465f7f05d92593b3b3585955c8416ac8bba066da3941791f5f8&ipo=images",
+			"Precio":15
 		}
 	},
 	"Ingredientes, salsas y modificaciones":{
