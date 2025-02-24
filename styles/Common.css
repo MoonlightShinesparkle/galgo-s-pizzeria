@@ -105,6 +105,27 @@ nav a {
     3px  3px 0 var(--HeaderColor);
 }
 
+.Whatsapp{
+	color: rgb(196, 255, 201);
+	text-decoration: none;
+	transition: color 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Ico{
+	width: 20px;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 5px;
+	transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+	,width 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Whatsapp:hover{
+	color: rgb(68, 255, 83);
+}
+.Whatsapp:hover .Ico{
+	height: 30px;
+	width: 30px;
+}
+
 @media screen and (max-width: 600px){
 	body{
 		font-size: medium;

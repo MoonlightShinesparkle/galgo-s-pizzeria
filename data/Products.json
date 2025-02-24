@@ -1,0 +1,77 @@
+{
+	"Pizzas":{
+		"Peperoni":{
+			"Img":"",
+			"Precio":120
+		},
+		"Queso":{
+			"Img":"",
+			"Precio":100
+		},
+		"Tres carnes":{
+			"Img":"",
+			"Precio":160
+		},
+		"Hawaiiana":{
+			"Img":"",
+			"Precio":140
+		},
+		"Mexicana":{
+			"Img":"",
+			"Precio":160
+		}
+	},
+	"Bebidas":{
+		"Soda":{
+			"Img":"",
+			"Precio":25
+		},
+		"Agua natural":{
+			"Img":"",
+			"Precio":10
+		}
+	},
+	"Ingredientes, salsas y modificaciones":{
+		"Notice":"Las pizzas personalizables inician en 100 pesos como una pizza de queso",
+		"Peperoni":{
+			"Img":"",
+			"Precio":20
+		},
+		"Sausage":{
+			"Img":"",
+			"Precio":20
+		},
+		"Tocino":{
+			"Img":"",
+			"Precio":20
+		},
+		"Chorizo":{
+			"Img":"",
+			"Precio":20
+		},
+		"Jamon":{
+			"Img":"",
+			"Precio":20
+		},
+		"Queso extra":{
+			"Img":"",
+			"Precio":20
+		},
+		"Corteza de queso":{
+			"Img":"",
+			"Precio":40
+		},
+		"Salsa de tomate extra":{
+			"Img":"",
+			"Precio":20
+		},
+		"Ranch":{
+			"Img":"",
+			"Precio":20
+		},
+		"Garlic butter":{
+			"Img":"",
+			"Precio":20
+		}
+	}
+}

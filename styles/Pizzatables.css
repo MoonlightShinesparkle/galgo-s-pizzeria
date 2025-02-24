@@ -1,0 +1,40 @@
+.Grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.Grid img{
+	width: 90%;
+	background-color: white;
+	border-radius: 10px;
+	aspect-ratio: 1;
+}
+.Grid slot{
+	text-align: center;
+	display: block;
+	flex-grow: 1;
+	flex-basis: 15%;
+	margin: 5px;
+	background-color: var(--HeaderColor);
+	padding-top: 10px;
+	border-radius: 10px;
+	max-width: 200px;
+}
+
+@media screen and (max-width: 1000px){
+	.Grid slot {
+		flex-basis: 18%;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.Grid slot {
+		flex-basis: 20%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.Grid slot {
+		flex-basis: 25%;
+	}
+}
