@@ -11,6 +11,7 @@ function GenHeader(Name,Desc){
 	if (Desc != null && Desc != undefined && Desc.trim() != "") {
 		let DescP = document.createElement("p")
 		DescP.textContent = Desc
+		DescP.style.textAlign = "center"
 		Insert(DescP)
 	}
 }
@@ -23,7 +24,7 @@ function GenCell(Image,Name,Price){
 	let Img = document.createElement("img")
 	let Desc = document.createElement("p")
 	Img.src = Image
-	Desc.textContent = Name + ": "+Price+"$"
+	Desc.textContent = Name + ": $"+Price
 	Cell.insertAdjacentElement("beforeend",Img)
 	Cell.insertAdjacentElement("beforeend",Desc)
 	return Cell

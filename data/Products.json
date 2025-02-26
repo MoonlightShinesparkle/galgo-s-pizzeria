@@ -73,6 +73,10 @@
 			"Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGBzoAuBO8unID6DWjYq5iyeQdx3FDq54Pww&s",
 			"Precio":20
 		},
+		"Champiñones":{
+			"Img":"https://anyhow.mx/wp-content/uploads/2021/05/Champinones-blancos-bis-anyhow.jpg",
+			"Precio":20
+		},
 		"Corteza de queso":{
 			"Img":"https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/ded6f8da-8cf2-4a64-ba37-918524007e86/Derivates/62cc9ab8-0557-4470-beb8-fa9bc9c6997e.jpg",
 			"Precio":40
