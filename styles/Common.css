@@ -126,6 +126,12 @@ nav a {
 	height: 30px;
 	width: 30px;
 }
+video, audio{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 
 @media screen and (max-width: 600px){
 	body{
