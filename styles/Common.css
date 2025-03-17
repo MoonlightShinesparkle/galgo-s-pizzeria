@@ -126,7 +126,7 @@ nav a {
 	height: 30px;
 	width: 30px;
 }
-video, audio{
+video, audio, .centered_huge{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
