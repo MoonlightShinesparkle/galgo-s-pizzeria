@@ -56,13 +56,12 @@ header {
 	width: 200px;
 }
 
-.HeaderWrapper h1 {
+.HeaderWrapper div{
 	margin: 5px;
 	margin-top: 50px;
 	margin-right: 10%;
 	text-align: center;
 	flex-grow: 1;
-	font-size: 300%;
 }
 
 nav {
