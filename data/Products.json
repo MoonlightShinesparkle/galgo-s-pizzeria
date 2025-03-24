@@ -2,23 +2,27 @@
 	"Pizzas":{
 		"Peperoni":{
 			"Img":"https://roviandaplus.com/wp-content/uploads/2022/04/Pizza-Pepperoni.jpg",
-			"Precio":120
+			"Precio":140
 		},
 		"Queso":{
 			"Img":"https://image.freepik.com/foto-gratis/pizza-cuatro-quesos-sobre-mesa_140725-5391.jpg",
-			"Precio":100
+			"Precio":120
 		},
 		"Tres carnes":{
 			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pystatic.com%2Fproducts%2F454350-3b587a56-1251-44ac-90b4-31f1c92ab89b.jpg&f=1&nofb=1&ipt=5fbca1a3d0b57f70160a58e24a499184f19ea5d9307a848a479c7f0d418b6a7e&ipo=images",
-			"Precio":160
+			"Precio":180
 		},
 		"Hawaiiana":{
 			"Img":"https://www.cocinadelirante.com/sites/default/files/images/2019/11/como-hacer-pizza-hawaiana.jpg",
-			"Precio":140
+			"Precio":160
 		},
 		"Mexicana":{
 			"Img":"https://media-cdn.tripadvisor.com/media/photo-s/23/c4/7c/9d/nuestra-consentida-pizza.jpg",
-			"Precio":160
+			"Precio":180
+		},
+		"Champiñones":{
+			"Img":"https://thumbs.dreamstime.com/b/mushroom-pizza-addition-mozzarella-cheese-herbs-wooden-table-top-view-123809233.jpg",
+			"Precio":140
 		}
 	},
 	"Bebidas":{
@@ -32,15 +36,15 @@
 		},
 		"Agua de horchata":{
 			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2Fhorchata.jpg&f=1&nofb=1&ipt=2b4baad26ec7cff24dd4530cb92d74e7ad46d5fabc48d09bb98804138762724c&ipo=images",
-			"Precio":20
+			"Precio":40
 		},
 		"Agua de jamaica":{
 			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2FJAMAICA.jpg&f=1&nofb=1&ipt=ebaca6c419587465f7f05d92593b3b3585955c8416ac8bba066da3941791f5f8&ipo=images",
-			"Precio":15
+			"Precio":40
 		}
 	},
 	"Ingredientes, salsas y modificaciones":{
-		"Notice":"Las pizzas personalizables inician en 100 pesos como una pizza de queso",
+		"Notice":"Las pizzas personalizables inician en 120 pesos como una pizza de queso",
 		"Peperoni":{
 			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZLSB5Dcg_DFxGvTYkcRF7wAAAA%26pid%3DApi&f=1&ipt=21b5ce292b219518fea3cdd76e884ccf8041abc86a03ab99eda013014205d453&ipo=images",
 			"Precio":20
@@ -88,9 +92,15 @@
 		"Salsa de tomate extra":{
 			"Img":"https://bowlsarethenewplates.com/wp-content/uploads/2021/03/marinara-sauce-12-682x1024.jpg",
 			"Precio":20
-		},
+		}
+	},
+	"Aderesos":{
 		"Ranch":{
 			"Img":"https://images.squarespace-cdn.com/content/v1/5d7fbf5250fa7f38f63f9806/1625056286113-VY2HPG686PPHN7DDTEGB/grandmas-dressing4-small.jpg",
+			"Precio":20
+		},
+		"Buffalo":{
+			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ffsKCAkLeitZc5vq0gokdgHaHa%26pid%3DApi&f=1&ipt=9b6b4a55158a50cbd5c0726a09a5bb4e2efd56a350c65cb8d95ff364daf6fe2f&ipo=images",
 			"Precio":20
 		},
 		"Garlic butter":{
