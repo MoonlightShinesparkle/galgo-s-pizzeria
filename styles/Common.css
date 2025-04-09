@@ -107,11 +107,6 @@ nav a {
     3px  3px 0 var(--HeaderColor);
 }
 
-.root a{
-	color: red;
-	font-weight: bolder;
-}
-
 .Whatsapp{
 	color: rgb(196, 255, 201);
 	text-decoration: none;
