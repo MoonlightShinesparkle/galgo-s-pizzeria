@@ -44,7 +44,7 @@
 		}
 	},
 	"Ingredientes, salsas y modificaciones":{
-		"Notice":"Las pizzas personalizables inician en 120 pesos como una pizza de queso",
+		"Notice":"Las pizzas personalizables inician en 120 pesos como una pizza de queso, al pedir 2 pizzas se puede añadir un ingrediente extra grátis",
 		"Peperoni":{
 			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZLSB5Dcg_DFxGvTYkcRF7wAAAA%26pid%3DApi&f=1&ipt=21b5ce292b219518fea3cdd76e884ccf8041abc86a03ab99eda013014205d453&ipo=images",
 			"Precio":20

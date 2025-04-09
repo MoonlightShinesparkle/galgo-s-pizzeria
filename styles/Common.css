@@ -24,6 +24,7 @@ body {
 body ::selection {
 	background-color: var(--HeaderColor);
 	text-decoration: underline;
+	color: white;
 }
 
 header, footer, .root {
@@ -104,6 +105,11 @@ nav a {
     3px -3px 0 var(--HeaderColor),
    -3px  3px 0 var(--HeaderColor),
     3px  3px 0 var(--HeaderColor);
+}
+
+.root a{
+	color: red;
+	font-weight: bolder;
 }
 
 .Whatsapp{
