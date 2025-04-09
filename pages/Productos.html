@@ -6,6 +6,7 @@
 	<link rel="icon" type="image/jpg" href="images/logos/MainLogo.jpg"/>
 	<link rel="stylesheet" href="styles/Common.css"/>
 	<link rel="stylesheet" href="styles/Pizzatables.css"/>
+	<link rel="stylesheet" href="styles/Promobar.css"/>
 	<title>
 		Galgo's pizzeria
 	</title>
@@ -17,6 +18,7 @@
 	<meta content="#4b190f" data-react-helmet="true" name="theme-color"/>
 	<script src="src/Insertions.js" defer></script>
 	<script src="src/Genpizzatable.js" defer></script>
+	<script src="src/Promotiongen.js" defer></script>
 </head>
 	<header>
 		<data id="Selected">Productos</data>
@@ -41,28 +43,21 @@
 			Ofrecemos pizzas y bebidas, existe la opci&oacute;n de personalizar tu pizza a tu gusto.
 		</p>
 		<img class="centered_huge" src="images/food/boxes.png"/>
+		<h1>
+			D&iacute;as abiertos y promociones
+		</h1>
+		<div class="Flexline Week" id="Long">
+		</div>
+		<div class="Flexline" id="Short">
+			<div class="FlexItem Yesterday"></div>
+			<div class="FlexItem Today"></div>
+			<div class="FlexItem Tomorrow"></div>
+		</div>
+		<div class="Flexline" id="Single">
+			<div class="FlexItem Today"></div>
+		</div>
 		<div id="PizzaContainer">
 		</div>
-		<h1>
-			Promociones
-		</h1>
-		<ul>
-			<li>
-				Pizza mexicana a $140 los viernes
-			</li>
-			<li>
-				2 Pizzas de pepperoni y 4 sodas a $300
-			</li>
-			<li>
-				En la compra de 2 pizzas o m&aacute;s puede a&ntilde;adir un ingrediente extra gratis
-			</li>
-			<li>
-				Happy hour todos los jueves de <u>7 PM a 8PM</u>: Pizzas de pepperoni a $100
-			</li>
-			<li>
-				Pizza de pepperoni y 2 sodas de lata por $160
-			</li>
-		</ul>
 	</div>
 	<insert src="pages/common/MainFooter.html"></insert>
 </body>
