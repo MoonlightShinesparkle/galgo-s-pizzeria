@@ -4,7 +4,7 @@
 	<base href=""/>
 	<meta charset="utf-8"/>
 	<link rel="icon" type="image/jpg" href="images/logos/MainLogo.jpg"/>
-	<link rel="stylesheet" href="styles/Common.css"/>
+	<link rel="stylesheet" href="styles/Hyper.css"/>
 	<title>
 		Galgo's pizzeria
 	</title>
@@ -18,33 +18,62 @@
 </head>
 	<header>
 		<data id="Selected">Inicio</data>
-		<div class="HeaderWrapper">
-			<img src="images/logos/Backgroundless.png" id="Icon"/>
-			<h1>
-				Galgo's pizzeria
-			</h1>
-		</div>
-		<h2 style="width: 100%;">
-			Pizzas que te haran decir "Wow"
-		</h2>
 		<nav>
 		</nav>
 		<script src="src/Headergen.js"></script>
+		<div class="AnimDisp">
+			<video src="Video/BG.mp4" loop autoplay></video>
+			<div class="Horizontal">
+				<img src="images/logos/Backgroundless.png"/>
+				<div class="Vertical">
+					<h1>
+						Galgo's pizzeria
+					</h1>
+					<u>
+						&quot;Pizzas que te hacen decir wow&quot;
+					</u>
+					<a class="Button" href="Pages/Productos.html">Ve nuestros productos</a>
+				</div>
+			</div>
+		</div>
 	</header>
 	<div class="root">
 		<h1>
 			Galgo's pizzeria
 		</h1>
-		<p>
-			Bienvenidos a la p&aacute;gina oficial de galgo's pizzeria:
-			una pequeña empresa en Tijuana, Baja California, México, ofreciendo
-			pizzas artesanales con ingredientes frescos y de alta calidad.
-			Ve nuestras promociones en <a href="pages/Productos.html#Promos" style="color: red;">productos</a>
-		</p>
-		<video controls loop>
-			<source src="video/Ad.mp4"/>
-			El video no se pudo reproducir :c
-		</video>
+		<!--Loadable videos-->
+		<div>
+			<div class="Hideable">
+				<div class="Divided">
+					<div class="Vertical">
+						<video controls loop>
+							<source src="video/Ad.mp4"/>
+							El video no se pudo reproducir :c
+						</video>
+					</div>
+					<div class="Vertical">
+						<h1 style="margin: 0px; font-size-adjust: 1;">
+							Sobre nosotros
+						</h1>
+						<p>
+							Somos una pequeña empresa en Tijuana, Baja California, M&eacute;xico, ofreciendo
+							<u>pizzas artesanales con ingredientes frescos y de alta calidad.</u>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="Showable">
+				<video controls loop>
+					<source src="video/Ad.mp4"/>
+					El video no se pudo reproducir :c
+				</video>
+				<p>
+					Bienvenidos a la p&aacute;gina oficial de galgo's pizzeria:
+					una pequeña empresa en Tijuana, Baja California, México, ofreciendo
+					<u>pizzas artesanales con ingredientes frescos y de alta calidad.</u>
+				</p>
+			</div>
+		</div>
 		<h2>
 			¿Por qu&eacute; nosotros?
 		</h2>
@@ -53,26 +82,32 @@
 			viaje gastron&oacute;mico &uacute;nico sobre ruedas. Y te ofrecemos una experiencia &uacute;nica para tu paladar
 			y para que pases un tiempo agradable degustando nuestras deliciosas pizzas.
 		</p>
-		<h2>
-			¿Qu&eacute; nos hace diferentes?
-		</h2>
-		<ul>
-			<li>
-				El uso de ingredientes frescos y de alta calidad: 
-				La pizza que servimos est&aacute; hecha con los mejores ingredientes frescos y
-				seleccionados cuidadosamente.
-			</li>
-			<li>
-				Hacemos nuesta propia salsa de tomate desde 0 en nuestra cocina
-			</li>
-			<li>
-				Una amplia variedad de pizzas junto a la posibilidad de personalizarlas
-			</li>
-			<li>
-				La flexibilidad tambi&eacute;n es una de nuestras ventajas y la comodidad al tener
-				todo en un foodtruck para llevar nuestras deliciosas pizzas a nuestros clientes
-			</li>
-		</ul>
+		<div class="Horizontal">
+			<div class="Vertical Boxify">
+				<h2>
+					Ingredientes
+				</h2>
+				<p>
+					Frescos y de alta calidad
+				</p>
+			</div>
+			<div class="Vertical Boxify">
+				<h2>
+					Salsa
+				</h2>
+				<p>
+					Hecha desde 0
+				</p>
+			</div>
+			<div class="Vertical Boxify">
+				<h2>
+					Pizzas
+				</h2>
+				<p>
+					Variadas y personalizables
+				</p>
+			</div>
+		</div>
 		<h2>
 			Ven a visitarnos!
 		</h2>
@@ -81,6 +116,9 @@
 			Nos encontramos en la Avenida Cochimies, mejor conocida como la calle del hambre, estamos abiertos de <u>4 PM a 10 PM</u> de 
 			<u>jueves a viernes</u>.
 		</p>
+		<div class="Horizontal" style="margin-bottom: 20px;">
+			<a class="Button" href="Pages/Productos.html">Checa nuestro horario interactivo</a>
+		</div>
 	</div>
 	<insert src="pages/common/MainFooter.html"></insert>
 </body>

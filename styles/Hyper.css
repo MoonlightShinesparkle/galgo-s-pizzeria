@@ -1,0 +1,266 @@
+:root {
+	--HeaderColor: #A54632;
+	--TransparentHeaderColor: #a5453286;
+	--BodyColor: #4b190f;
+	--Unselected: #220b06;
+	--TxtColor: #ffffff;
+	--Shadow: rgba(67, 21, 3, 0.6);
+	--ActiveMarinara: rgb(235, 75, 75);
+}
+
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: var(--TxtColor);
+	background-color: var(--BodyColor);
+	word-break: keep-all;
+	font-size: large;
+	overflow-x: hidden;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	min-height: 100svh;
+	text-align: justify;
+}
+
+body ::selection {
+	background-color: var(--HeaderColor);
+	text-decoration: underline;
+	color: white;
+}
+
+footer {
+	padding: 10px;
+}
+
+header, footer {
+	background-color: var(--HeaderColor);
+}
+
+header {
+	padding-bottom: 0px;
+}
+
+.Horizontal, .Vertical, .Divided{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	vertical-align: middle;
+}
+.Horizontal, .Divided{
+	flex-direction: row;
+}
+.Vertical{
+	flex-direction: column;
+	justify-content: center;
+}
+.AnimDisp video{
+	width: 100%;
+}
+.AnimDisp .Horizontal{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 5%;
+	width: 100%;
+}
+.AnimDisp img{
+	display: block;
+	width: 40%;
+}
+.AnimDisp .Vertical{
+	justify-content: center;
+}
+.AnimDisp h1{
+	margin: 0px;
+}
+.AnimDisp u{
+	font-weight: normal;
+}
+.Button{
+	padding: 5px;
+	margin: 5px;
+	background-image: linear-gradient(175deg,var(--ActiveMarinara),rgb(143, 37, 37));
+	border-radius: 10px;
+	color: white;
+	box-shadow: 5px 5px 7px var(--Shadow);
+	border-style: solid;
+	border-width: 0px;
+	transition: border-width 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.Button:hover{
+	border-width: 3px;
+}
+
+.Boxify{
+	justify-content: center;
+}
+.Boxify h2{
+	background-color: var(--ActiveMarinara);
+	color: white;
+	text-shadow: none;
+	width: 100%;
+	padding: 5px;
+	margin: 0px;
+	border-radius: 10px 10px 0px 0px;
+}
+.Boxify p{
+	background-color: white;
+	color: var(--ActiveMarinara);
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+p{
+	padding: 10px;
+}
+
+nav {
+	z-index: 1;
+	position:fixed;
+	width: 100%;
+	background-color: var(--TransparentHeaderColor);
+	display: flex;
+	justify-content:flex-end;
+	overflow-x: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	overflow: -moz-scrollbars-none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	backdrop-filter: blur(2px);
+}
+
+nav::-webkit-scrollbar {
+	display: none;
+}
+
+nav a {
+	background-color: var(--Unselected);
+	margin-right: 10px;
+	padding: 10px 3% 5px 3%;
+	color: var(--TxtColor);
+	text-align: center;
+	border-radius: 10px;
+	transition: background-color 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+nav a:hover{
+	box-shadow: 5px 5px 5px var(--Shadow);
+	background-color: var(--ActiveMarinara);
+}
+
+#Selected {
+	display: none;
+}
+
+.Selected {
+	background-color: var(--BodyColor);
+}
+
+.root h1, h2{
+	text-align: center;
+	text-shadow: 3px 3px 0 var(--HeaderColor),
+   -3px -3px 0 var(--HeaderColor),  
+    3px -3px 0 var(--HeaderColor),
+   -3px  3px 0 var(--HeaderColor),
+    3px  3px 0 var(--HeaderColor);
+}
+
+.Whatsapp{
+	color: rgb(196, 255, 201);
+	text-decoration: none;
+	transition: color 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Ico{
+	width: 20px;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 5px;
+	transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+	,width 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.Whatsapp:hover{
+	color: rgb(68, 255, 83);
+}
+.Whatsapp:hover .Ico{
+	height: 30px;
+	width: 30px;
+}
+video, audio, .centered_huge{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.Hideable{
+	display: none;
+}
+.Showable{
+	display: unset;
+}
+
+@media screen and (min-width: 600px){
+	body{
+		font-size: medium;
+	}
+	#Icon{
+		margin-top: 30px;
+		display: block;
+		height: 80px;
+		width: 80px;
+	}
+	.HeaderWrapper h1{
+		margin-right: 10%;
+	}
+	.AnimDisp h1{
+		font-size-adjust: 1;
+	}
+	.Hideable{
+		display: unset;
+	}
+	.Showable{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 500px){
+	body{
+		font-size: medium;
+	}
+	#Icon{
+		display: none;
+	}
+	nav a{
+		font-size: larger;
+	}
+	.HeaderWrapper h1{
+		margin-right: 5px;
+	}
+	.AnimDisp h1{
+		font-size: large;
+		font-size-adjust: unset;
+	}
+}
+
+@media screen and (max-width: 300px){
+	body{
+		font-size: large;
+	}
+	#Icon{
+		display: block;
+		height: 200px;
+		width: 200px;
+	}
+	.HeaderWrapper h1{
+		margin-right: 10%;
+	}
+	.AnimDisp h1{
+		background-color: red;
+		font-size-adjust: unset;
+	}
+}
