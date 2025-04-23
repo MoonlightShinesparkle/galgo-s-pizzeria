@@ -21,7 +21,7 @@ body {
 	grid-template-rows: auto 1fr auto;
 	min-height: 100vh;
 	min-height: 100svh;
-	text-align: justify;
+	text-align: center;
 }
 
 body ::selection {
@@ -181,15 +181,9 @@ nav a:hover{
 	height: 20px;
 	padding-left: 10px;
 	padding-right: 5px;
-	transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275)
-	,width 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .Whatsapp:hover{
 	color: rgb(68, 255, 83);
-}
-.Whatsapp:hover .Ico{
-	height: 30px;
-	width: 30px;
 }
 video, audio, .centered_huge{
 	width: 90%;
@@ -202,6 +196,22 @@ video, audio, .centered_huge{
 }
 .Showable{
 	display: unset;
+}
+.Panel, .Panel2, .Panel3{
+	background-color: var(--HeaderColor);
+	width: 90%; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+}
+.Panel2{
+	background-color: #7c3223;
+}
+.Panel3{
+	background-color: #7c2323;
 }
 
 @media screen and (min-width: 600px){

@@ -4,7 +4,7 @@
 	<base href=".."/>
 	<meta charset="utf-8"/>
 	<link rel="icon" type="image/jpg" href="images/logos/MainLogo.jpg"/>
-	<link rel="stylesheet" href="styles/Common.css"/>
+	<link rel="stylesheet" href="styles/Hyper.css"/>
 	<link rel="stylesheet" href="styles/Pizzatables.css"/>
 	<link rel="stylesheet" href="styles/Promobar.css"/>
 	<title>
@@ -22,51 +22,58 @@
 </head>
 	<header>
 		<data id="Selected">Productos</data>
-		<div class="HeaderWrapper">
-			<img src="images/logos/Backgroundless.png" id="Icon"/>
-			<h1>
-				Galgo's pizzeria
-			</h1>
-		</div>
-		<h2 style="width: 100%;">
-			Pizzas que te haran decir "Wow"
-		</h2>
 		<nav>
 		</nav>
 		<script src="src/Headergen.js"></script>
+		<div class="AnimDisp">
+			<video src="Video/BG.mp4" loop autoplay></video>
+			<div class="Horizontal">
+				<img src="images/logos/Backgroundless.png"/>
+				<div class="Vertical">
+					<h1>
+						Galgo's pizzeria
+					</h1>
+					<u>
+						&quot;Pizzas que te hacen decir wow&quot;
+					</u>
+					<a class="Button" href="Pages/Productos.html">Ve nuestros productos</a>
+				</div>
+			</div>
+		</div>
 	</header>
 	<div class="root">
-		<h1>
-			Nuestros productos
-		</h1>
-		<p style="text-align: center;">
-			Ofrecemos pizzas y bebidas, existe la opci&oacute;n de personalizar tu pizza a tu gusto.
-		</p>
-		<img class="centered_huge" src="images/food/boxes.png"/>
-		<h1 id="Promos">
-			D&iacute;as abiertos y promociones
-		</h1>
-		<div class="Flexline Week" id="Long">
+		<div class="Promos">
+			<div class="Flexline Week" id="Long">
+			</div>
+			<div class="Flexline" id="Short">
+				<div class="FlexItem Yesterday"></div>
+				<div class="FlexItem Today"></div>
+				<div class="FlexItem Tomorrow"></div>
+			</div>
+			<div class="Flexline" id="Single">
+				<div class="FlexItem Today"></div>
+			</div>
+			<ul style="list-style: none; padding-left: 0px;">
+				<li>
+					2 Pizzas de pepperoni y 4 sodas a $300
+				</li>
+				<li>
+					En la compra de 2 pizzas o m&aacute;s puede a&ntilde;adir un ingrediente extra gratis
+				</li>
+				<li>
+					Pizza de pepperoni y 2 sodas de lata por $160
+				</li>
+			</ul>
 		</div>
-		<div class="Flexline" id="Short">
-			<div class="FlexItem Yesterday"></div>
-			<div class="FlexItem Today"></div>
-			<div class="FlexItem Tomorrow"></div>
+		<div class="Panel2" style="padding-bottom: 20px;">
+			<h1>
+				Nuestros productos
+			</h1>
+			<p style="text-align: center;">
+				Ofrecemos pizzas y bebidas, existe la opci&oacute;n de personalizar tu pizza a tu gusto.
+			</p>
+			<img class="centered_huge" src="images/food/boxes.png" style="padding: 10px; border-radius: 10px;"/>
 		</div>
-		<div class="Flexline" id="Single">
-			<div class="FlexItem Today"></div>
-		</div>
-		<ul style="display: block; margin-left: auto; margin-right: auto;">
-			<li>
-				2 Pizzas de pepperoni y 4 sodas a $300
-			</li>
-			<li>
-				En la compra de 2 pizzas o m&aacute;s puede a&ntilde;adir un ingrediente extra gratis
-			</li>
-			<li>
-				Pizza de pepperoni y 2 sodas de lata por $160
-			</li>
-		</ul>
 		<div id="PizzaContainer">
 		</div>
 	</div>

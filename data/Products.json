@@ -9,7 +9,7 @@
 			"Precio":120
 		},
 		"Tres carnes":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.pystatic.com%2Fproducts%2F454350-3b587a56-1251-44ac-90b4-31f1c92ab89b.jpg&f=1&nofb=1&ipt=5fbca1a3d0b57f70160a58e24a499184f19ea5d9307a848a479c7f0d418b6a7e&ipo=images",
+			"Img":"https://api.click2order.ca//images/item-images/ZbVTzXM8j37cWd4LsDHxt9feEJqgiAR2-256x256.jpg",
 			"Precio":180
 		},
 		"Hawaiiana":{
@@ -27,7 +27,7 @@
 	},
 	"Bebidas":{
 		"Soda":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.tenor.com%2F9peydw5SCe4AAAAM%2Fcoca-cola.gif&f=1&nofb=1&ipt=154afdb2632a01b86d018d482109c5b813d9e432a5b84cd55540229556a08cec&ipo=images",
+			"Img":"https://public.blenderkit.com/thumbnails/assets/ef3ef3081b3a44e38490432bc75c8a50/files/thumbnail_490f90a4-fe36-4ff4-ab6e-b8cd812f6bef.png.256x256_q85_crop-%2C.png.webp?webp_generated=1701165866",
 			"Precio":25
 		},
 		"Agua natural":{
@@ -35,18 +35,18 @@
 			"Precio":10
 		},
 		"Agua de horchata":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2Fhorchata.jpg&f=1&nofb=1&ipt=2b4baad26ec7cff24dd4530cb92d74e7ad46d5fabc48d09bb98804138762724c&ipo=images",
+			"Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT68aZpzZyOmsl9dkJzZW_GXKt9OllTSE2ew&s",
 			"Precio":40
 		},
 		"Agua de jamaica":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lasalsapremier.mx%2Fwp-content%2Fuploads%2F2022%2F11%2FJAMAICA.jpg&f=1&nofb=1&ipt=ebaca6c419587465f7f05d92593b3b3585955c8416ac8bba066da3941791f5f8&ipo=images",
+			"Img":"https://brokebankvegan.com/wp-content/uploads/2021/02/Agua-de-Jamaica-Recipe.jpg",
 			"Precio":40
 		}
 	},
 	"Ingredientes, salsas y modificaciones":{
 		"Notice":"Las pizzas personalizables inician en 120 pesos como una pizza de queso, al pedir 2 pizzas se puede añadir un ingrediente extra grátis",
 		"Peperoni":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ZLSB5Dcg_DFxGvTYkcRF7wAAAA%26pid%3DApi&f=1&ipt=21b5ce292b219518fea3cdd76e884ccf8041abc86a03ab99eda013014205d453&ipo=images",
+			"Img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUWyBhCLwqTs2qxeWTcvu96q_RCkA425gtbA&s",
 			"Precio":20
 		},
 		"Sausage":{
@@ -54,7 +54,7 @@
 			"Precio":20
 		},
 		"Tocino":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.harringtonham.com%2Fprod_images%2F350%2Fharringtons-thick-sliced-bacon-996-1.jpg&f=1&nofb=1&ipt=00d44ccc3c5605daac3a68ba8e435c38b508c1a985ed856266ae65da44e76329&ipo=images",
+			"Img":"https://images.stockcake.com/public/0/5/3/05384a22-cfc8-423f-a432-4ea7269db9a2_medium/sizzling-bacon-cooking-stockcake.jpg",
 			"Precio":20
 		},
 		"Chorizo":{
@@ -100,7 +100,7 @@
 			"Precio":20
 		},
 		"Buffalo":{
-			"Img":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ffsKCAkLeitZc5vq0gokdgHaHa%26pid%3DApi&f=1&ipt=9b6b4a55158a50cbd5c0726a09a5bb4e2efd56a350c65cb8d95ff364daf6fe2f&ipo=images",
+			"Img":"https://www.bigbearswife.com/wp-content/uploads/2022/05/Homemade-Texas-Pete-Buffalo-Sauce-Featured-Image.jpg",
 			"Precio":20
 		},
 		"Garlic butter":{
